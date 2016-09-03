@@ -1,0 +1,22 @@
+{
+  "name": "twitfier",
+  "description": "Twitter mobile notification router",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT License",
+  "author": "Raghavendra Prabhu",
+  "engines": {
+    "node": "~4.2"
+  },
+  "scripts": {
+    "start": "node twitter.js",
+    "deploy": "gcloud app deploy"
+  },
+  "dependencies": {
+    "node-pinboard": "^1.0.0",
+    "sleep": "^3.0.1",
+    "twitter": "^1.4.0"
+  },
+  "main": "twitter.js",
+  "devDependencies": {}
+}
