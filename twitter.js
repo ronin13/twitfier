@@ -69,6 +69,8 @@ stream.on('data', function(event) {
                 }
             } else {
                 console.dir(error);
+                // TODO: Do something better here.
+                // Check comment for error below.
                 sleep.sleep(10);
             }
         });
@@ -79,6 +81,8 @@ stream.on('data', function(event) {
  
 stream.on('error', function(error) {
     console.dir(error);
+    // This is just a band-aid, need a better back-off
+    // for Twitter's 420 response for ratelimiting.
     sleep.sleep(60);
 });
 // [END app]

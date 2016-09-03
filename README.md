@@ -31,3 +31,10 @@ and to deploy and promote:
 ## Disclaimer
 This is something I wrote for my own usage. I am far from a javascript/nodejs expert.
 Use at your own risk.
+
+## Thanks to:
+* Suggestions provided on twitter community forum: https://twittercommunity.com/t/mobile-notifications-and-filtering-through-api/71744
+* Libraries I am using 
+    - [node-pinboard](https://github.com/maxmechanic/node-pinboard)
+    - [twitter](https://www.npmjs.com/package/twitter)
+    - [sleep](https://www.npmjs.com/package/sleep)
