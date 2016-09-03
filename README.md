@@ -8,16 +8,20 @@ through IFTTT.
 
 ## Running locally
 
-Create a file called config with:
-
+1. Create a file called config with:
+```
     export TWITTER_CONSUMER_KEY=
     export TWITTER_CONSUMER_SECRET=
     export TWITTER_ACCESS_TOKEN_KEY=
     export TWITTER_ACCESS_TOKEN_SECRET=
     export PINBOARD_TOKEN=""
-
+```
 where you can get twitter credentials from api.twitter.com and pinboard
 token from Pinboard settings.
+
+2. npm install node-pinboard sleep twitter --save
+
+3. node twitter.js
 
 ## Running on GAE
 
